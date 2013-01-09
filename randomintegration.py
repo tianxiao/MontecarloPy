@@ -20,8 +20,7 @@ outN = 0
 for i in range(totalSample):
 	if checkValueFun(random.random(),2*random.random(),integradeFun):
 		inM = inM +1
-	else:
-		outN = outN +1
+
 		
 
 print inM ,outN
